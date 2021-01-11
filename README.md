@@ -60,7 +60,7 @@ my-kafka-projects   my-cluster-zookeeper-0                       1/1     Running
 ## Kafka Connect Integration
 - Below command installs connect pod to cluster;
 ```
-kubectl apply -f examples/connect/kafka-connect-s2i-single-node-kafka.yaml -n my-kafka-projects
+kubectl apply -f examples/connect/kafka-connect-single-node-kafka.yaml -n my-kafka-projects
 ```
 - Deleting can be necessary when "Error" or "CrashLoopBackOff" status.
 ```
