@@ -6,7 +6,7 @@ minikube start --memory=4096
 ```
 - Can learn running pods with;
 ```
-minikube start --memory=4096
+kubectl get po -A
 ```
 ## Installing Strimzi to Windows
 - Download install files and unzip
